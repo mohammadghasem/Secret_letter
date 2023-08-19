@@ -1,0 +1,25 @@
+Watson has sent a letter to Holmes in which he has written some secrets of the mysterious story.
+But it is possible that the letter was tampered with in transit so that Holmes could not solve the problem.
+To prevent this from happening, Watson has written a series of letters with invisible ink at the end of the letter,
+in which each word in the text of the letter has been represented by a special letter of the alphabet.
+Help Holmes figure out if he can trust the information inside.
+
+INPUT
+n is the number of texts that must be examined,
+and then for each text that must be examined,
+it is written in the first line of the text of the letter
+(pay attention to the fact that there are no spaces between words,
+and the length of this text is a maximum of twenty) and in the line The second is 
+the invisible string that we want to check for matching with the text of the letter.
+1≤n≤10
+
+OUTPUT
+For each examined text, if the text of the letter matches with the invisible string,
+the word Yes will be printed and otherwise, the word No will be printed.
+
+sample input :
+1
+mysterycrimemystery
+XYX
+output :
+yes
